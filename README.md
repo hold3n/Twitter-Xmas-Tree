@@ -1,21 +1,10 @@
 Twitter-Xmas-Tree
 =================
-
-// about
 /*
 
 //WeekEnd Project
 PROJECT: TWITTER #XMAS TREE
 Version 1.0.0 - 2012.12.14
-
-//Files:
-- processing: twitterbridge3.pde (twitter connection and light control)
-- arduino: TwitterXMasTree.ino (hardware / software bridge)
-- schema: CircuitoLuci_01.pdf (circuit)
-
-//By Daniele Iori (hold3n)
-** www.ibridodesign.com
-** daniele.temp@gmail.com
 
 //Concept IT
 E' un semplice script che si connette a twitter, cerca i messaggi con la parola #xmas 
@@ -36,8 +25,14 @@ During the days before Christmas, the frequency grows up and grows up! Until the
 You can see the physical frenzy of Christmas speed up until the lights burn out!
 Just like people in the home.
 
+//Files:
+- processing: twitterbridge3.pde (twitter connection and light control)
+- arduino: TwitterXMasTree.ino (hardware / software bridge)
+- schema: CircuitoLuci_01.pdf (circuit)
 
-
+//By Daniele Iori (hold3n)
+** www.ibridodesign.com
+** daniele.temp@gmail.com
 
 //This project uses:
 ** Twitter4J library - http://twitter4j.org/
