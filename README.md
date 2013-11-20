@@ -38,11 +38,21 @@ Just like people in the home.
 ** Twitter4J library - http://twitter4j.org/
 
 This project uses or is based on parts of:
-** Simple Processing Twitter - http://robotgrrl.com/blog/2011/02/21/simple-processing-twitter/
-** simpleTweet_00 processing - http://www.instructables.com/id/Simple-Tweet-Arduino-Processing-Twitter/
-** Tweeting Christmas Tree - http://www.instructables.com/id/Tweeting-Christmas-Tree/
-** Twitter Mention Mood Light - http://www.instructables.com/id/Twitter-Mention-Mood-Light/
-** Twitter Mood Light - http://www.instructables.com/id/Twitter-Mood-Light-The-Worlds-Mood-in-a-Box
+
+** Simple Processing Twitter 
+- http://robotgrrl.com/blog/2011/02/21/simple-processing-twitter/
+
+** simpleTweet_00 processing 
+- http://www.instructables.com/id/Simple-Tweet-Arduino-Processing-Twitter/
+
+** Tweeting Christmas Tree 
+- http://www.instructables.com/id/Tweeting-Christmas-Tree/
+
+** Twitter Mention Mood Light 
+- http://www.instructables.com/id/Twitter-Mention-Mood-Light/
+
+** Twitter Mood Light 
+- http://www.instructables.com/id/Twitter-Mood-Light-The-Worlds-Mood-in-a-Box
 
 
 This work is licensed under a Creative Commons Attribution 3.0 - http://creativecommons.org/licenses/by/3.0/
