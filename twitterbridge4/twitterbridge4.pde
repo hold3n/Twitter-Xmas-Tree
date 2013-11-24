@@ -112,6 +112,13 @@ void setup() {
   text("TWITTER", 15, 30);
   text("BRIDGE", 15, 45);
   
+  /* test serial port
+  for (int i=0; i<(10); i++) {
+    print(i);
+    print(" - ");
+    println(Serial.list()[i]);
+  }
+  */
   String portName = Serial.list()[0];
   myPort = new Serial(this, portName, 9600);
 
