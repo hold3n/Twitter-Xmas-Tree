@@ -35,14 +35,13 @@ TWITTER_ACCESS_TOKEN_SECRET = ' insert your key '
 
 # SETUP ALBERO
 terminericerca = '#xmas'    #chiave
-pulsazione = 1              #tempo di pulsazione
-errore = 1/3                #pulsazione rapida per segnalazione errori
+pulsazione = float(1)       #tempo di pulsazione
+errore = pulsazione/3       #pulsazione rapida per segnalazione errori
 
 # SETUP GPIO
 gpio.setmode(gpio.BOARD)
 gpio_luci=7
 
-gpio.setup(gpio_errore, gpio.OUT)
 gpio.setup(gpio_luci, gpio.OUT)
 
 class MyStreamer(TwythonStreamer):
@@ -58,9 +57,9 @@ class MyStreamer(TwythonStreamer):
             return
 
     def on_error(self, status_code, data):
-        gpio.output(gpio_errore, True) #accendi
+        gpio.output(gpio_luci, True) #accendi
         time.sleep(errore)
-        gpio.output(gpio_errore, False) #spegni
+        gpio.output(gpio_luci, False) #spegni
         time.sleep(errore)
         print(status_code)
 
