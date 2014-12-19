@@ -40,7 +40,7 @@ errore = pulsazione/3       #pulsazione rapida per segnalazione errori
 
 # SETUP GPIO
 gpio.setmode(gpio.BOARD)
-gpio_luci=7
+gpio_luci=13
 
 gpio.setup(gpio_luci, gpio.OUT)
 
