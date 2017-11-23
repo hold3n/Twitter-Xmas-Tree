@@ -5,7 +5,7 @@ Twitter-Xmas-Tree
 //WeekEnd Project
 PROJECT: TWITTER #XMAS TREE // with arduino e Processing
 ---------------------
-Version 1.0.0 - 2012.12.14
+Version 1.1.0 - 2012.12.14
 
 ### //Concept IT
 E' un semplice script che si connette a twitter, cerca i messaggi con una parola specifica (in questo caso #xmas) 
