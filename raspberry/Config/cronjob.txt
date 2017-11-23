@@ -1,0 +1,15 @@
+# Per fare in modo che lo script parta ad ogni avvio di raspberry
+# Inserire i sequenti cronjob in crontab
+# Apri crontab -> crontab -e o sudo crontab -e
+# inserisci le voci dopo la riga
+# ——————————————————————
+
+#Fa partire lo script all’avvio di raspberry
+@reboot bash /home/pi/scripts/riattiva.sh &
+
+#Verifica ogni due minuti che lo script sia attivo
+*/2 * * * * bash /home/pi/scripts/riattiva.sh &
+
+
+
+
