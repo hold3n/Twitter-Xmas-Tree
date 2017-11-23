@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# Utility script per verificare il corretto funzionamento delle luci
+
 __author__ = 'daniele'
 
 import RPi.GPIO as gpio
@@ -30,6 +32,7 @@ def pulsa():
 while True:
     pulsa()
     print("ok")
+
 
 
 
